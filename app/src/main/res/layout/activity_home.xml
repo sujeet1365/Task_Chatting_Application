@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cc97a9"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context="com.example.sujeet.chattingapp.HomeActivity">
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Name"/>
+
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/edt_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:hint="Contact"/>
+
+    <Button
+        android:layout_margin="15dp"
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#060e16"
+        android:textColor="#ffffff"
+        android:text="Start Chatting"/>
+
+</LinearLayout>
